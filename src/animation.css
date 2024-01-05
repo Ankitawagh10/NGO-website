@@ -1,0 +1,84 @@
+/*-----------animation- about us---------*/
+#detail{
+
+   
+    position: relative;
+    animation-name: ex;
+    animation-duration:9s;  
+     animation-duration: 4s;
+  animation-iteration-count: 1;
+    
+  }
+  @keyframes ex {
+    to {right: 0px;}
+    from {right: 200px;}
+
+  }
+
+#donation1{
+   
+    position: relative;
+    animation-name: example1;
+    animation-duration:9s;  
+    animation-iteration-count: 2;
+     animation-duration: 4s;
+  animation-iteration-count: 2;
+    
+  }
+  @keyframes example1 {
+    to {right: 0px;color:white; background-color:rgb(205, 68, 90); border-bottom: 2px solid white;}
+    from {right: 200px;}
+
+  }
+  
+  #donation2{
+   
+    position: relative;
+    animation-name: example2;
+    animation-duration:9s;  
+    animation-iteration-count: 2;
+     animation-duration: 4s;
+  animation-iteration-count: 2;
+    
+  }
+  @keyframes example2 {
+    to {bottom: 0px;color:white; background-color:rgb(205, 68, 90); border-bottom: 2px solid white;}
+    from {bottom: 200px;}
+
+  }
+  #donation3{
+   
+    position: relative;
+    animation-name: example3;
+    animation-duration:9s;  
+    animation-iteration-count: 2;
+     animation-duration: 4s;
+  animation-iteration-count:2;
+    
+  }
+  
+  @keyframes example3 {
+    to {left: 0px;color:white; background-color:rgb(205, 68, 90); border-bottom: 2px solid white;}
+    from {left: 200px;}
+
+  }
+  /*---gallary--------*/
+.item {
+    animation-duration: 5s;
+    animation-name: slidein;
+   
+    animation-iteration-count:infinite;
+   
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-right: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-right: 0%;
+      width: 100%;
+    }
+  }
